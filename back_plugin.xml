@@ -1,0 +1,7 @@
+<library path="lib/libback_recovery">
+  <class name="back_recovery/BackRecovery" type="back_recovery::BackRecovery" base_class_type="nav_core::RecoveryBehavior">
+    <description>
+      A recovery behavior that moves backwards to attempt to clear out space.
+    </description>
+  </class>
+</library>
