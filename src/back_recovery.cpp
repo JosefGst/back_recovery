@@ -116,7 +116,7 @@ namespace back_recovery
         local_costmap_->getRobotPose(global_pose);
 
         double current_angle = tf2::getYaw(global_pose.pose.orientation);
-        // double start_angle = current_angle;
+        double start_angle = current_angle;
 
         bool got_back = false;
 
